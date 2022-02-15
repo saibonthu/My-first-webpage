@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    {% block head %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+        <title>{% block title %}{% endblock %}This is {{ name }} Website</title>
+    {% endblock %}
+
+</head>
+<body>
+<div id="main_menu" class="red">
+    <h1><span class="cyan makebigger gothic">B</span>onthu's Homepage</h1>
+</div>
+<div id="main_content" class="cyan">
+    <p>
+    <span class="red makebigger gothic">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis elit vel orci fermentum molestie quis in elit.
+    Aliquam nec placerat ante. Quisque elementum faucibus risus ut malesuada. Sed efficitur nunc a interdum scelerisque.
+    Aliquam erat volutpat. Nulla nec justo blandit, lobortis orci id, iaculis sapien. Nullam convallis, nunc sit amet
+    luctus lobortis, elit risus convallis diam, vel tincidunt urna neque a arcu. Curabitur augue ante, aliquet sed
+    ornare convallis, semper at neque. Nulla pellentesque nec orci vel hendrerit. Pellentesque ultricies magna eget nibh
+    finibus elementum. Praesent sit amet aliquet augue, eu luctus urna.
+    </p>
+    <p>
+    Suspendisse aliquam nisi id sollicitudin gravida. Nunc tristique nec magna sodales interdum. Quisque id facilisis
+    quam, a bibendum ligula. Phasellus id efficitur quam, et tincidunt nibh. Donec bibendum lobortis nisi, ut eleifend
+    quam sagittis at. Sed in cursus velit. Aenean nec neque eget enim condimentum porttitor. Pellentesque in odio
+    lectus. In lobortis metus non ultrices tincidunt. Curabitur consectetur accumsan velit non tincidunt. Integer
+    vestibulum placerat enim non sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+    turpis egestas. Sed ullamcorper sagittis tortor, at ultricies erat. Nulla a interdum lorem.
+     </p>
+    <p>
+    Aliquam vitae euismod sapien. Ut blandit, sapien at euismod pharetra, lacus leo semper ligula, eget vehicula purus
+    ligula vel ex. Praesent non magna dolor. Vivamus ullamcorper dui in pulvinar consectetur. Aliquam eget facilisis
+    turpis, et egestas ex. Nulla facilisi. Maecenas cursus ligula eu velit maximus luctus. Maecenas nunc mi, accumsan
+    nec tellus sit amet, lobortis iaculis mauris. Aenean imperdiet congue velit, vel suscipit nibh auctor non.
+    Suspendisse ut nunc vitae augue efficitur luctus. Sed auctor sem in mauris vulputate, sit amet luctus massa
+    consectetur. Nunc pulvinar neque erat, a mollis mi venenatis ut. Nullam scelerisque imperdiet magna, in tincidunt
+    ligula ullamcorper vitae. Fusce diam purus, dapibus vitae purus vitae, lacinia semper eros. Pellentesque congue ex
+    quis finibus fermentum. Etiam ut sem quis mauris sodales egestas.
+     </p>
+    <p>
+    Integer mollis, neque non sodales commodo, augue justo fermentum ligula, ac egestas velit velit vitae risus.
+    Pellentesque nunc libero, consectetur ut ullamcorper vitae, consequat in turpis. Phasellus tortor orci, rutrum ac
+    tortor non, cursus vestibulum justo. Sed sed maximus lectus, sit amet consectetur velit. Vestibulum ante ipsum
+    primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec et lorem et mauris congue congue sed eu
+    justo. Maecenas aliquet orci velit, sit amet iaculis eros iaculis eu. Pellentesque vel aliquam erat. Sed convallis
+    nec ipsum in sagittis. Pellentesque et justo et augue tristique hendrerit id a est. Nullam finibus molestie
+    ultrices.
+     </p>
+    <p>
+    Fusce quis lectus dictum, mollis arcu cursus, tempor libero. Curabitur rhoncus luctus magna, vitae vulputate lectus
+    fringilla ac. Vestibulum quis ligula aliquam, venenatis tellus sed, mattis orci. Morbi in enim pharetra est laoreet
+    porttitor in eget eros. Sed tincidunt at neque a tristique. Vivamus interdum, nulla et fringilla consectetur, nulla
+    nunc consequat lacus, nec iaculis massa libero sed tortor. Fusce rhoncus orci eget ligula hendrerit, sit amet
+    ultricies augue fermentum. Curabitur id felis sit amet est consectetur mollis. Nulla ut varius risus. In consectetur
+    fermentum volutpat. Aliquam erat volutpat. Aenean euismod vestibulum turpis ac vestibulum. Morbi mollis sit amet
+    enim at mollis. Proin sed arcu feugiat elit sodales sollicitudin. Etiam laoreet in arcu et rutrum.
+     </p>
+    <p>
+    Sed fermentum vitae nulla eu pretium. Ut pretium eros mauris, sed pulvinar quam feugiat sit amet. Maecenas quis
+    lorem et ante rutrum fermentum ac sed eros. Vivamus nec dui ex. Vivamus et quam vel metus lobortis rutrum. Donec
+    congue ipsum vel ullamcorper varius. Suspendisse libero arcu, feugiat quis risus nec, gravida hendrerit augue.
+    Phasellus fringilla id leo ut congue. Aliquam feugiat ultricies volutpat. Nulla vel tempus massa, et semper libero.
+    Cras eu sollicitudin turpis. Vestibulum sollicitudin bibendum lorem a luctus. In aliquam pretium viverra. Maecenas
+    efficitur metus ex, rutrum blandit tellus bibendum eget. Donec molestie ante enim. Quisque porta lectus ante, non
+    volutpat enim consequat eu.
+     </p>
+    <p>
+    Aliquam a tellus in quam dignissim eleifend vehicula et lorem. Praesent pretium ultrices pharetra. Nullam interdum
+    eros sagittis, semper nisi id, faucibus neque. Praesent volutpat eros felis. Nullam eu pharetra leo. Maecenas at
+    turpis vitae elit faucibus efficitur. Ut quis leo vehicula, tempus arcu at, suscipit massa. Maecenas vitae ipsum
+    nisi. Aliquam erat volutpat. Integer euismod mauris vitae metus lobortis pharetra. Sed varius risus at convallis
+    scelerisque. Aenean commodo ex lacus, et sagittis nibh sagittis sit amet.
+    </p>
+</div>
+</body>
+</html>

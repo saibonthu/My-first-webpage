@@ -1,0 +1,17 @@
+body {
+    font-family: Helvetica, "Helvetica Neue", sans-serif;
+}
+
+.red{
+    color: red;
+}
+
+.cyan{
+    color: cyan;
+}
+.makebigger{
+    font-size: 300%;
+}
+.gothic{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 30px; font-style: italic;
+}
